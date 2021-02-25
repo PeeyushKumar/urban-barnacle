@@ -1,4 +1,4 @@
-package main;
+package urbanbarnacle;
 
 import javax.swing.JPanel;
 import javax.swing.JLabel;

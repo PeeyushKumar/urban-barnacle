@@ -9,8 +9,8 @@ JREFLAGS=-cp .:mysql-connector-java-8.0.23.jar
 all: src/*
 	$(CC) $(CFLAGS) src/*
 
-run: main/*
-	$(JRE) $(JREFLAGS) main.Main
+run: urbanbarnacle/*
+	$(JRE) $(JREFLAGS) urbanbarnacle.Main
 
-clean: main
-	rm -rf main/
+clean: urbanbarnacle
+	rm -rf urbanbarnacle/

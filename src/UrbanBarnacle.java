@@ -1,18 +1,18 @@
-package main;
+package urbanbarnacle;
 
 import javax.swing.JFrame;
 import java.awt.event.*;
 
-import main.database.Database;
+import urbanbarnacle.database.Database;
 
-public class AppFrame extends JFrame implements ActionListener {
+public class UrbanBarnacle extends JFrame implements ActionListener {
     LoginPanel loginPanel;
     WelcomePanel welcomePanel;
 
     Database db = new Database();
 
-    public AppFrame() {
-        setTitle("AppFrame");
+    public UrbanBarnacle() {
+        setTitle("Urban Barnacle");
 
         createPanels();
         add(loginPanel);
@@ -53,7 +53,5 @@ public class AppFrame extends JFrame implements ActionListener {
                     loginPanel.lstatus.setText("Incorrect Username or Password!");
                 }
         }
-
-        //System.out.println(e.getActionCommand());
     }
 }

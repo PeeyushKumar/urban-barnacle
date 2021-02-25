@@ -1,4 +1,4 @@
-package main.database;
+package urbanbarnacle.database;
 
 import java.sql.DriverManager;
 import java.sql.Connection;

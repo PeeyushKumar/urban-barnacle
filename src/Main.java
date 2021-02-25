@@ -1,7 +1,7 @@
-package main;
+package urbanbarnacle;
 
 public class Main {
     public static void main(String[] args) {
-        new AppFrame();
+        new UrbanBarnacle();
     }
 }
